@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mailing List</title>
+    <link rel="stylesheet" type="text/css" href="css/stylelist.css"/>
+</head>
+
+<body>
+    <div class = "banner"> Mike's Canine News & Information</div>
+    <div class = "banner2">A place for pet parents to receive <span style=color:#E8593C;>valuable</span> information on their dogs.</span></div>
+   
+<ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="breeds.html">Breeds</a></li>
+    <li><a href="tips.html">Tips</a></li>
+    <li><a href="winterspts.html">Winter Activities</a></li>
+    <li><a href="health.html">Health</a></li>
+    <li><a href="myform.html">Newsletter</a></li>
+    <li><a href="about.html">About</a></li>
+</ul> 
+   
+    <div class = "subbanner">Sign Up for Monthly Newsletter</div>
+    <div class = "myhcontainer">
+    <img class = "infofeaturebox" src = "images/Monthly%20Pet%20Breeds.jpg"/><br><br>
+    <div class = "infoblurb">Please enter your name and email address to receive our mothly newsletter about dogs delivered to your inbox.<br><br>
+    The newsletters are packed with information regarding dog care, dog health and each month features a specific breed.
+        </div>
+    </div>
+    <br>
+<form>
+    <p>Your Name: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type='text' id='Name'></p>
+    <p>Your Email Address: &nbsp<input type='text' id='Email'></p>
+    <p>Re-EnterEmail Addr: &nbsp<input type='text' id='Emailr'></p>
+    <br></br>
+    <h3>
+        Select the Pets you currently have.
+    </h3>
+  <input type="checkbox" name="dog" value="Dog"> I have a dog<br>
+  <input type="checkbox" name="cat" value="Cat"> I have a cat<br>
+  <input type="checkbox" name="rabbit" value="Rabbit"> I have a rabbit<br>
+  <input type="checkbox" name="fish" value="Aquarium"> I have an Aquarium<br>
+  
+  <br></br>
+  <h3>
+      Choose the frequency of emails you would like to receive.
+  </h3>
+
+  <input type="radio" name="monthly" value="monthly" checked> Monthly<br>
+  <input type="radio" name="quarterly" value="quarterly"> Quarterly only<br>
+  <input type="radio" name="seasonal" value="seasonal"> Seasonal only
+ 
+</form>
+<br></br>
+
+    <button id='Submit' onclick='changeTheText()'>Submit</button>
+</body>
+
+</html>
