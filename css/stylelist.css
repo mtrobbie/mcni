@@ -8,7 +8,7 @@ body {
  .banner {
     font-size: 30px;
     color:#FFFFFF;
-  /*  text-align:center; */
+    text-align:center;
     background-color: #010A0D;
     border-width: 5px;
     border-style: solid;
@@ -20,7 +20,8 @@ body {
     margin-top: 10px;
     margin-right: 5px;
     margin-bottom:0px;
-    margin-left: 310px;
+   /*  margin-left: 430px; */
+    margin-left: 5px; 
     }
 
 .banner2 {
@@ -44,6 +45,7 @@ body {
 
 .linkbanner {
     font-size: 20px;
+    font-style: normal;
     color:#FFFFFF;
     text-align:center;
     background-color: #010A0D;
@@ -273,6 +275,7 @@ form {
   margin-bottom: 0px;
   margin-left: 5px;
   margin-right: 5px;
+  font-style: normal;    
 }
 
 .navbar li { 
@@ -318,7 +321,8 @@ font-size: 15px;
   height: 50px;
   width: 50px;    
   display:block;
-  float: left;
+  position: fixed;
+  z-index: 10;    
   margin-left: 7px;
   margin-top: 7px;
 }
