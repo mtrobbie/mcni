@@ -113,7 +113,8 @@ body {
 
 .mycontainer {
    width: 1000px;
-   height: 500px;        
+   height: 500px; 
+   padding-bottom: 40px; 
 }
 
 .box1 {
@@ -195,7 +196,8 @@ form {
 
 .myhcontainer {
    width: 1000px;
-   height: 350px;        
+   height: 350px; 
+   padding-bottom: 40px; 
 }
 
 .infofeaturebox {    
